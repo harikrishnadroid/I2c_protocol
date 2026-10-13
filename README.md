@@ -63,7 +63,7 @@ The design consists of an I2C Master, an I2C Slave, and a top-level module conne
 ## 5. I2C Protocol Implementation
 
 ## 5.1 Frame size
-<img width="1459" height="666" alt="Screenshot 2026-10-13 at 3 35 03 PM" src="https://github.com/user-attachments/assets/c9660b34-26d6-4892-a4c1-cd4df2eec36d" />
+
 <img width="1376" height="768" alt="i2c_frame_format" src="https://github.com/user-attachments/assets/8cf78e43-2ba5-4808-a81f-481f34055b9e" />
 
 
