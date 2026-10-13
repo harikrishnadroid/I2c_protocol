@@ -3,8 +3,8 @@
 //scl_oe is scl enable line
 //to create opendrain concept I have used this sda_oe and scl_oe lines
 //In i2c protocol any device can only drive value "0" for driving "1" devices should need to release the sda line then pull up by  pullup resistor 
-//which is connected with the vdd.
-
+//which is connected with the vdd and gnd is connected with the every device(ex masters,slaves).
+//if want to send data bit is "0" then the "sda_oe=1",then only it will take sda as "0",sda_oe=0;sda will be 1;
 
 module master(input aclk,
               input rst,
